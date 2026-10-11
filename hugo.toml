@@ -1,0 +1,34 @@
+baseURL = "https://space-learning.pages.dev/"
+languageCode = "en-us"
+title = "Strategic Space Power & Emerging Economies"
+theme = "PaperMod"
+
+[params]
+  description = "A global, accessible learning system for space strategy, technology, and policy."
+  author = "Oko Jokwu Kenogbole"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowToc = true
+  TocOpen = false
+
+  [params.homeInfoParams]
+    Title = "Welcome to Space Power 101"
+    Content = "A free, global course on space strategy, technology, and policy for emerging economies."
+
+[[menu.main]]
+  name = "Modules"
+  url = "/modules/"
+  weight = 10
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 20
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
